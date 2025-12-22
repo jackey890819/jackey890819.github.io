@@ -1,7 +1,7 @@
 ---
 title: 我的第一篇 Jekyll 部落格文章
 date: 2025-12-21 16:00:00 +0800
-categories: [紀錄]
+categories: [不分類]
 tags: [jekyll, github-pages]
 description: 這是使用 Jekll 搭配 Github Page 搭建部落格的初體驗。
 ---
