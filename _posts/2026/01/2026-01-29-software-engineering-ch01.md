@@ -2,8 +2,8 @@
 title: 軟體工程筆記 Ch01 導論
 date: 2026-01-29 16:00:00 +0800
 categories: [筆記, 軟體工程]
-tags: [筆記, 開發]
-description: 軟體工程第十版第一章筆記
+tags: [筆記, 開發, 軟體工程]
+description: 軟體工程 第十版 第一章筆記
 mermaid: true
 ---
 
@@ -41,14 +41,14 @@ mermaid: true
 
 ```mermaid
 graph LR
-    A("軟體規格<br>(Specification)") --> B("軟體開發<br>(Development)")
-    B --> C("軟體驗證<br>(Validation)")
-    C --> D("軟體演進<br>(Evolution)")
+    A["軟體規格<br>(Specification)"] --> B["軟體開發<br>(Development)"]
+    B --> C["軟體驗證<br>(Validation)"]
+    C --> D["軟體演進<br>(Evolution)"]
     
-    style A fill:#f9f,stroke:#333,stroke-width:2px
-    style B fill:#bbf,stroke:#333,stroke-width:2px
-    style C fill:#bfb,stroke:#333,stroke-width:2px
-    style D fill:#fbf,stroke:#333,stroke-width:2px
+    style A fill:#2C4A3E,stroke:#6FB66F,stroke-width:2px,color:#E0E0E0
+    style B fill:#1F3A5F,stroke:#64B5F6,stroke-width:2px,color:#E0E0E0
+    style C fill:#4A3A2C,stroke:#FFB74D,stroke-width:2px,color:#E0E0E0
+    style D fill:#3E2C4A,stroke:#BA68C8,stroke-width:2px,color:#E0E0E0
 ```
 
 1.  **規格 (Specification)：** 定義軟體應做什麼及操作限制。
@@ -98,14 +98,14 @@ graph LR
 ```mermaid
 graph TD
     subgraph "Insulin Pump System"
-        Controller("控制器 (Controller)")
-        Sensor("血液感測器") --> Controller
-        Controller --> Pump("幫浦 (Pump)")
-        Controller --> Alarm("警報器")
-        Controller --> Display1("顯示器1")
-        Controller --> Display2("顯示器2")
-        Clock("時鐘") --> Controller
-        Power("電源供應") --- Controller
+        Controller["控制器 (Controller)"]
+        Sensor["血液感測器"] --> Controller
+        Controller --> Pump["幫浦 (Pump)"]
+        Controller --> Alarm["警報器"]
+        Controller --> Display1["顯示器1"]
+        Controller --> Display2["顯示器2"]
+        Clock["時鐘"] --> Controller
+        Power["電源供應"] --- Controller
     end
 ```
 *(參考來源:)*
@@ -147,7 +147,7 @@ columns 1
   space
   block:Integration
     columns 1
-    IntegratedApps["整合的學習應用程式 (iLearn Applications)"]
+    IntegratedApps["整合的學習應用程式<br>(iLearn Applications)"]
   end
 ```
 *(iLearn 是一個服務導向的系統，透過配置服務來整合各類應用與實用工具)*
